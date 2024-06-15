@@ -1,0 +1,29 @@
+.btn3 {
+font-family: Roboto, sans-serif;
+font-size: 14px;
+color: #fff;
+background-color: #000000;
+padding: 10px 30px;
+border: solid #000000 2px;
+border-radius: 2px;
+transition : 337ms;
+transform: translateY(0);
+display: flex;
+flex-direction: row;
+cursor: pointer;
+align-items: center;
+}
+
+.btn3:hover {
+
+transition : 337ms;
+padding: 10px 94px;
+background-color: #ffffff00;
+color: #ffffff;
+border: solid 2px #000000;
+}
+
+.btn3:active {
+  transition: 337ms;
+  transform: scale(0.8)
+}
